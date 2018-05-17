@@ -18,7 +18,14 @@ public class Caneta;
     }
   
     void rabiscar(){
-   
+        
+        if (this.tampada == true){
+            System.out.println("Erro! não posso rabiscar");
+        }
+        else{
+            System.out.println("Estou rabiscando");
+        }   
+            
     
     }
     
