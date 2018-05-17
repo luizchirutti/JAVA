@@ -10,5 +10,9 @@ public class Aula2{
   c1.tampar();
   c1.status();
   
+  Caneta c2 = new Caneta();
+  c2.modelo = "Hostnet";
+  c2.cor = "Vermelha";
+  c2.destampar();
   }
 }
